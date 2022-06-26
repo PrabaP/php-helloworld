@@ -1,0 +1,25 @@
+{
+    "name": "php-helloworld/blob/master/index.php",
+    "type": "library",
+    "license": "PP",
+    "homepage": "https://github.com/PrabaP/php-helloworld/blob/master/index.php",
+    "description": "demo repo",
+    "keywords": ["code coverage", "php-helloworld", "coverage reports"],
+    "authors": [
+        {
+            "name": "php-helloworld",
+            "email": "prabhapcarrer@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~8.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Example": "src/"
+        }
+    }
+}
